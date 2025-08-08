@@ -1,0 +1,7 @@
+.ui {
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 5.2rem;
+  gap: 0rem;
+}

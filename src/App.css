@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  border-top: solid 0.5rem #bbe1fa;
+  background-color: #1b262c;
+  color: #bbe1fa;
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+input {
+  padding: 1.2rem;
+  font-size: 1.8rem;
+
+  background-color: #31363f;
+  border: none;
+  color: #fff;
+
+  border-radius: 0.4rem;
+}
+
+.btn-auth {
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  background-color: #bbe1fa;
+
+  transition: all 0.4s;
+}
+
+.btn-auth:hover {
+  background-color: #0f4c75;
+  color: #fff;
+}
