@@ -1,0 +1,22 @@
+.completed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.menu {
+  font-size: 2.4rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #0f4c75;
+  color: #eee;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.menu:hover {
+  background-color: #bbe1fa;
+  color: #000;
+}

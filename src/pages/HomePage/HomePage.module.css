@@ -1,0 +1,48 @@
+.main {
+  padding: 12rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 1.2rem;
+  /* height: 50rem; */
+}
+
+.logo {
+  height: 60rem;
+  width: auto;
+}
+
+.para {
+  font-size: 1.8rem;
+  color: #ddd;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  background-color: #31363f;
+  border-radius: 1.2rem;
+  padding: 1.5rem 0;
+
+  align-self: center;
+  justify-content: center;
+}
+
+.btn a:link,
+.btn a:visited {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1.2rem;
+  padding: 1.6rem 2.4rem;
+}
+
+.btn :global(.active) {
+  background-color: #0f4c75;
+}

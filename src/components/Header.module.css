@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem;
+}
+
+.header .emoji {
+  font-size: 4.2rem;
+}
+.header strong {
+  font-size: 4.2rem;
+  text-decoration: underline;
+}
+
+.header span {
+  font-size: 2.4rem;
+}
+
+.name {
+  color: #f3f3ab;
+}
+
+.logout {
+  border: none;
+  background-color: #ef3838;
+  color: #fff;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #f80f0f;
+}
+
+.side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
